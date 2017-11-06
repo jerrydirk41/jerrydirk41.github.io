@@ -113,8 +113,6 @@ a:active{
   margin-left: 25%;
   padding-right: 15%;
   margin-top: 20px;
-  overflow:auto;
-  float:left;
 }
 
 .project_title {
@@ -125,8 +123,9 @@ a:active{
 
 }
 
-.project_title_picture {
+span.project_title_picture {
   float: right;
+
 }
 
 .frontpage_picture {
@@ -225,6 +224,9 @@ a.frontpage_link:active{
   font-family: 'Covered By Your Grace', cursive;
 }
 
+div.project_experience{
+  margin-left: 25%;
+}
 h2 {
   font-size: 35px;
   color: #000066;
@@ -233,9 +235,14 @@ h2 {
 
 span.paragraph_content {
   margin-top: 5px;
+  margin-left: 25%;
   font-size: 20px;
   font-family: 'cwTeXFangSong', serif;
   line-height: 30px;
+}
+
+div.project_album{
+  margin-left: 25%;
 }
 
 div.album_picture_horizon img {
