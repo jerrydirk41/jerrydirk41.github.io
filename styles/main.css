@@ -1,6 +1,6 @@
-h1 {
-    color: gray;
-    text-align: center;
+body{
+  background-image:url('./pictures/backgrounds.jpg');
+  background-repeat:no-repeat;
 }
 
 .navigate_bar {
@@ -99,29 +99,29 @@ a:active{
 }
 
 .navigate_bar_logo {
-  width: 40%;
+  width: 50%;
   height: 20%;
   margin-top: 10%;
 }
 
 .project_content {
-  display: inline-block;
+  display: block;
   width: 80%;
   margin-left: 25%;
   margin-top: 20px;
+  overflow-x:hidden;
 }
 
 .project_title {
   display: inline-block;
-  width: 120%;
-  padding-right: 15%;
+  width: 140%;
   margin-top: 50px;
-
 }
 
 span.project_title_picture {
   float: right;
-
+  display: block;
+  margin-right: 15%;
 }
 
 .frontpage_picture {
@@ -132,7 +132,7 @@ span.project_title_picture {
 
 span.frontpage_text {
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'cwTeXFangSong', serif;
 }
 
@@ -161,7 +161,7 @@ span.frontpage_text {
 }
 
 a.frontpage_link:link{
-  display: block;
+  display: inline-block;
   margin-left: 31em;
   margin-top: 25px;
   width: 15%;
@@ -176,7 +176,7 @@ a.frontpage_link:link{
 }
 
 a.frontpage_link:visited{
-  display: block;
+  display: inline-block;
   margin-left: 31em;
   margin-top: 25px;
   width: 15%;
@@ -191,7 +191,7 @@ a.frontpage_link:visited{
 }
 
 a.frontpage_link:hover{
-  display: block;
+  display: inline-block;
   margin-left: 31em;
   margin-top: 25px;
   width: 17%;
@@ -206,7 +206,7 @@ a.frontpage_link:hover{
 }
 
 a.frontpage_link:active{
-  display: block;
+  display: inline-block;
   margin-left: 31em;
   margin-top: 25px;
   width: 15%;
@@ -220,6 +220,67 @@ a.frontpage_link:active{
   font-family: 'Covered By Your Grace', cursive;
 }
 
+a.frontpage_ig:link{
+  display: inline-block;
+  margin-left: 31em;
+  margin-top: 25px;
+  width: 15%;
+  text-align: center;
+  font-size: 22px;
+  background-color: #D95926;
+  color: #FFFFFF;
+  border-radius: 12%;
+  padding: 5px 12px;
+  text-decoration: none;
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+a.frontpage_ig:visited{
+  display: inline-block;
+  margin-left: 31em;
+  margin-top: 25px;
+  width: 15%;
+  text-align: center;
+  font-size: 22px;
+  background-color: #D95926;
+  color: #FFFFFF;
+  border-radius: 12%;
+  padding: 5px 12px;
+  text-decoration: none;
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+a.frontpage_ig:hover{
+  display: inline-block;
+  margin-left: 31em;
+  margin-top: 25px;
+  width: 17%;
+  text-align: center;
+  font-size: 22px;
+  background-color: #D95926;
+  color: #FFFFFF;
+  border-radius: 12%;
+  padding: 7px 14px;
+  text-decoration: none;
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+a.frontpage_ig:active{
+  display: inline-block;
+  margin-left: 31em;
+  margin-top: 25px;
+  width: 15%;
+  text-align: center;
+  font-size: 22px;
+  background-color: #D95926;
+  color: #FFFFFF;
+  border-radius: 12%;
+  padding: 5px 12px;
+  text-decoration: none;
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+
 h2 {
   font-size: 35px;
   color: #000066;
@@ -228,9 +289,9 @@ h2 {
 
 span.paragraph_content {
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'cwTeXFangSong', serif;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 
